@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Vertical
   - Horizontal
+  - Bala
+  - Target_Rojo
   layers:
   - Default
   - TransparentFX
