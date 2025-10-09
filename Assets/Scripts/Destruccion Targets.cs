@@ -9,7 +9,7 @@ public class DestruccionTargets : MonoBehaviour
     private Collider TargetCollider;
 
     private float contadorTarget = 0f;
-    public bool targetRoto;
+    private bool targetRoto;
 
     public Puntuacion puntuacionScript;
 

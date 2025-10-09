@@ -22,12 +22,7 @@ public class Bala : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (UnityEngine.Input.GetButtonDown("Fire1"))
+        if (UnityEngine.Input.GetButtonDown("Jump"))
             Fire();
-    }
-
-    void Gravedad()
-    {
-        Physics.gravity = new Vector3(0, -1.0F, 0);
     }
 }
