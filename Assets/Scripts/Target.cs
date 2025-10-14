@@ -50,12 +50,4 @@ public class Target : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, puntosMovimiento[siguientePunto].position, velocidadMovimiento * Time.deltaTime);
         }
     }
-
-    private void OnTriggerEnter(Collider collision)
-    {
-        if (collision.gameObject.tag == "Bala")
-        {
-            Destroy(gameObject);
-        }
-    }
 }
