@@ -252,7 +252,7 @@ Transform:
   m_GameObject: {fileID: 199748800}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.42, y: 2.1877105, z: 0.91999996}
+  m_LocalPosition: {x: 0, y: 0, z: 0.91999996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -825,6 +825,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
+--- !u!1 &718338140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718338141}
+  m_Layer: 0
+  m_Name: Punto_Target (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &718338141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718338140}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.17, y: 4.26, z: 3.84}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &749717382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1308,6 +1339,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280936529}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1388841894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1388841895}
+  m_Layer: 0
+  m_Name: Punto_Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1388841895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388841894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.17, y: 5.7, z: 3.84}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1420694254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1581,6 +1643,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
+--- !u!1 &1753850512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753850513}
+  m_Layer: 0
+  m_Name: Punto_Target (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1753850513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753850512}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.4399996, z: 3.84}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1813714630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,13 +1953,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Target (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2495779323699150642, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
+      propertyPath: m_TagString
+      value: Target_Extra
+      objectReference: {fileID: 0}
     - target: {fileID: 3019974431702934920, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.09
+      value: 7.17
       objectReference: {fileID: 0}
     - target: {fileID: 3019974431702934920, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.12
+      value: 5.7
       objectReference: {fileID: 0}
     - target: {fileID: 3019974431702934920, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1912,6 +2009,26 @@ PrefabInstance:
       propertyPath: Velocidad
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8102534871342877748, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
+      propertyPath: velocidadMovimiento
+      value: 3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102534871342877748, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
+      propertyPath: puntosMovimiento.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102534871342877748, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
+      propertyPath: 'puntosMovimiento.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1388841895}
+    - target: {fileID: 8102534871342877748, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
+      propertyPath: 'puntosMovimiento.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1753850513}
+    - target: {fileID: 8102534871342877748, guid: 89a344ff75f8db14e91973895a222bf4, type: 3}
+      propertyPath: 'puntosMovimiento.Array.data[2]'
+      value: 
+      objectReference: {fileID: 718338141}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -2523,5 +2640,8 @@ SceneRoots:
   - {fileID: 749717382}
   - {fileID: 8753955814094463710}
   - {fileID: 1964526802}
+  - {fileID: 1388841895}
+  - {fileID: 718338141}
+  - {fileID: 1753850513}
   - {fileID: 199748801}
   - {fileID: 646078276}

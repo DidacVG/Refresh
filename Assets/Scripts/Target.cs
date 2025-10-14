@@ -35,6 +35,36 @@ public class Target : MonoBehaviour
                 ordenPunto = true;
             }
 
+
+
+            if (Vector3.Distance(transform.position, puntosMovimiento[siguientePunto].position) < 0.1f)
+            {
+                if (ordenPunto)
+                {
+                    siguientePunto += 1;
+                }
+                else
+                {
+                    siguientePunto -= 1;
+                }
+            }
+
+            transform.position = Vector3.MoveTowards(transform.position, puntosMovimiento[siguientePunto].position, velocidadMovimiento * Time.deltaTime);
+        }
+        if (gameObject.tag == "Target_Extra")
+        {
+            if (ordenPunto && siguientePunto + 1 >= puntosMovimiento.Length)
+            {
+                ordenPunto = false;
+            }
+
+            if (!ordenPunto && siguientePunto <= 0)
+            {
+                ordenPunto = true;
+            }
+
+
+
             if (Vector3.Distance(transform.position, puntosMovimiento[siguientePunto].position) < 0.1f)
             {
                 if (ordenPunto)
